@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "fuGameReactor",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.gamereactor.se/*"
+      ],
+      "js": ["fuGameReactor.js"]
+    }
+  ]
+}
