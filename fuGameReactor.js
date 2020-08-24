@@ -1,6 +1,3 @@
-document.cookie = "sid=lolnoty; path=/";
-document.cookie = "countdownToAd=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
 try {
   var x = document.getElementById("interstitial");
   if(x){
@@ -12,3 +9,7 @@ try {
 catch  {
 
 }
+document.cookie = "sid=lolnoty; path=/";
+document.cookie = "countdownToAd=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+
